@@ -31,7 +31,6 @@ public class SerieController {
     
     @GetMapping("/api/series")
     public ResponseEntity<List<Serie>> listarSeries(){
-
         return ResponseEntity.ok(serieService.listarSeries());
     }
 }
